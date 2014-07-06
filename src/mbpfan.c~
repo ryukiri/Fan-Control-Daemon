@@ -53,9 +53,9 @@ int max_fan_speed = 6200;
  * low_temp - temperature below which fan speed will be at minimum
  * high_temp - fan will increase speed when higher than this temperature
  * max_temp - fan will run at full speed above this temperature */
-int low_temp = 50;   // try ranges 55-63
-int high_temp = 55;  // try ranges 58-66
-int max_temp = 76;   // do not set it > 90
+int low_temp = 63;   // try ranges 55-63
+int high_temp = 66;  // try ranges 58-66
+int max_temp = 86;   // do not set it > 90
 
 int polling_interval = 7;
 
